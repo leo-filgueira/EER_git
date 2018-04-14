@@ -4,9 +4,30 @@ subtitle: "Introdução ao GIT"
 author: "Leonardo Filgueira"
 output: 
   revealjs::revealjs_presentation:
-    theme: league
+    theme: sky 
     center: true
 ---
+
+## O que é o [GitHub](https://github.com/)?  
+
+>- Hospedagem gratuita para repositórios.
+>- Permite criar e manter repositórios.
+>- Incentiva colaboração.
+
+>- <img src="github.png"  height="480" width="1000">
+
+## Uso do github
+
+### Código
+
+>- <img src="dplyr.png"  height="480" width="1080">
+
+## Uso do github
+
+### Problemas 
+
+>- <img src="issues.png"  height="480" width="1080">
+
 
 ## O que é o GIT?  
 
@@ -15,13 +36,21 @@ output:
 >- Permite o *clone* de  *repositório* remoto.
 >- Permite alteração de repositório remoto.
 
-## O que é o GitHub?  
+## [Download](https://git-scm.com/downloads)
 
->- Hospedagem gratuita para repositórios.
->- Permite criar e manter repositórios.
->- Incentiva colaboração.
+<img src="git_download.png"  height="480" width="1080">
 
->- <img src="github.png"  height="480" width="1000">
+## Configurando o GIT
 
+### Definindo a identidade
 
-## Conhecendo o git
+Em **Git Bash**, digitamos:
+
+```{r, engine='bash', eval = F}
+git config --global user.name "nome_de_usuario"
+git config --global user.email user@exemplo.com
+```
+
+## Clonando projeto
+
+<img src="clone_git.png"  height="480" width="1080">
