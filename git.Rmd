@@ -1,0 +1,27 @@
+---
+title: "R Estudos"
+subtitle: "Introdução ao GIT"
+author: "Leonardo Filgueira"
+output: 
+  revealjs::revealjs_presentation:
+    theme: league
+    center: true
+---
+
+## O que é o GIT?  
+
+>- Sistema de controle de versão.
+>- Software livre.
+>- Permite o *clone* de  *repositório* remoto.
+>- Permite alteração de repositório remoto.
+
+## O que é o GitHub?  
+
+>- Hospedagem gratuita para repositórios.
+>- Permite criar e manter repositórios.
+>- Incentiva colaboração.
+
+>- <img src="github.png"  height="480" width="1000">
+
+
+## Conhecendo o git
