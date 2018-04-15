@@ -83,4 +83,9 @@ git config --global user.email user@exemplo.com
 
 >- Mensagem de modificação dos arquivos.
 
-<img src="commit.png"  height="400" width="720">
+>- <img src="commit.png"  height="400" width="720">
+
+## Push
+
+>- Envia os commits ao repositório remoto (se for autorizado pelo mantenedor).
+
