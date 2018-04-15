@@ -74,4 +74,11 @@ git config --global user.email user@exemplo.com
 >- *Commit*
 >- *Push*
 
+## Pull
 
+>- *Puxa* as modificações do repositório remoto (GitHub).
+>- Necessário para atualizar o repositório antes de enviar modificações.
+
+## Commit
+
+>- Mensagem de modificação dos arquivos.
