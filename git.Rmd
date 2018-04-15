@@ -88,4 +88,6 @@ git config --global user.email user@exemplo.com
 ## Push
 
 >- Envia os commits ao repositório remoto (se for autorizado pelo mantenedor).
+>- Importante o reposítório estar atualizado.
 
+>- <img src="push.png"  height="400" width="720">
