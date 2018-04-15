@@ -10,7 +10,7 @@ output:
 
 ## O que é o [GitHub](https://github.com/)?  
 
->- Hospedagem gratuita para repositórios.
+>- Hospedagem gratuita para *repositórios*.
 >- Permite criar e manter repositórios.
 >- Incentiva colaboração.
 
@@ -33,7 +33,7 @@ output:
 
 >- Sistema de controle de versão.
 >- Software livre.
->- Permite o *clone* de  *repositório* remoto.
+>- Permite o *clone* de  repositório remoto.
 >- Permite alteração de repositório remoto.
 
 ## [Download](https://git-scm.com/downloads)
@@ -53,4 +53,25 @@ git config --global user.email user@exemplo.com
 
 ## Clonando projeto
 
+### Obtendo url
+
 <img src="clone_git.png"  height="480" width="1080">
+
+## Clonando projeto
+
+### Utilizando o RStudio
+
+>- Abra um novo projeto.
+>- Selecione *Version Control*.
+>- Escolha *Git*.
+>- Cole a *url* do repositório.
+
+## Fazendo e obtendo modificações
+
+<img src="rstudio.png"  height="400" width="1080">
+
+>- *Pull*
+>- *Commit*
+>- *Push*
+
+
