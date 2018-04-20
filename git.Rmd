@@ -54,7 +54,7 @@ git config --global user.email user@exemplo.com
 ## Configurando RStudio e GitHub
 
 >- Em tools > Global Options > Git/SVN, aperte em *Create RSA Key*
->- Deve ser exibida a mensagem *Your identification has been saved in...*.
+>- Deve ser exibida a mensagem: *Your identification has been saved in...*.
 >- Clique em *View public key* e copie a key.
 >- Abra o github, clique na sua foto > Settings > SSH and GPG Keys > New SSH key.
 >- Coloque um título que lhe ajude a identificar de onde é a key, cole a key e confirme.  
