@@ -51,7 +51,15 @@ git config --global user.name "nome_de_usuario"
 git config --global user.email user@exemplo.com
 ```
 
-## Clonando projeto
+## Configurando RStudio e GitHub
+
+>- Em tools > Global Options > Git/SVN, aperte em *Create RSA Key*
+>- Deve ser exibida a mensagem *Your identification has been saved in...*.
+>- Clique em *View public key* e copie a key.
+>- Abra o github, clique na sua foto > Settings > SSH and GPG Keys > New SSH key.
+>- Coloque um título que lhe ajude a identificar de onde é a key, cole a key e confirme.  
+
+## Clonando [repositório](https://github.com/netododono/EER_git)
 
 ### Obtendo url
 
@@ -91,3 +99,11 @@ git config --global user.email user@exemplo.com
 >- Importante o reposítório estar atualizado.
 
 >- <img src="push.png"  height="400" width="720">
+
+## Referências e links úteis:
+
+>- [Adicionando SSH no github](https://help.github.com/articles/connecting-to-github-with-ssh/).
+
+>- [Git e github para usuários de R (livro)](http://happygitwithr.com/).
+
+>- [Configuração inicial do Git](https://git-scm.com/book/pt-br/v1/Primeiros-passos-Configura%C3%A7%C3%A3o-Inicial-do-Git).
