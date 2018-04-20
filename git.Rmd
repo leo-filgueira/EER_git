@@ -12,7 +12,7 @@ output:
 
 >- Hospedagem gratuita para *repositórios*.
 >- Permite criar e manter repositórios.
->- Incentiva colaboração.
+>- Incentiva colaboração. h
 
 >- <img src="github.png"  height="480" width="1000">
 
