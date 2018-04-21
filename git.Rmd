@@ -100,6 +100,10 @@ git config --global user.email user@exemplo.com
 
 >- <img src="push.png"  height="400" width="720">
 
+## Observação
+
+>- O arquivo local *.Rproj* nunca deve ser enviado para o GitHub. Caso ele seja acidentalmente enviado, deve ser removido pelo site.
+
 ## Referências e links úteis:
 
 >- [Adicionando SSH no github](https://help.github.com/articles/connecting-to-github-with-ssh/).
