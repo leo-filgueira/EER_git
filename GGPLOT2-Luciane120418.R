@@ -1,5 +1,6 @@
 require(ggplot2)
 require(magrittr)
+
 dados <- read.csv2("https://docs.google.com/spreadsheets/d/e/2PACX-1vRLFwPgKMph2zEjntMRgJDvbco9PTEgvLpbA5NL7XKiVLlG85rD8IDCAbMnOkL09Hbw6fzaNfoI46fc/pub?gid=1315387217&single=true&output=csv", encoding = "UTF-8")
 summary(dados)
 dados %>% 
