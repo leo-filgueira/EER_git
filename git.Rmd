@@ -96,9 +96,43 @@ git config --global user.email user@exemplo.com
 ## Push
 
 >- Envia os commits ao repositório remoto (se for autorizado pelo mantenedor).
->- Importante o reposítório estar atualizado.
+>- Importante o repositório estar atualizado.
 
 >- <img src="push.png"  height="400" width="720">
+
+## Observações
+
+- O arquivo local *.Rproj* nunca deve ser enviado para o GitHub. Caso ele seja acidentalmente enviado, deve ser removido pelo site.
+
+- Mudei localização do repositório no github.
+```{r, engine='bash', eval = F}
+git remote set-url origin git@github.com:leo-filgueira/EER_git.git
+```
+
+## Branches
+
+### Criando novo branch
+
+- Criando branch local:
+```{r, engine='bash', eval = F}
+git checkout -b [nome_do_branch]
+```
+
+- Enviando para o repositório remoto:
+```{r, engine='bash', eval = F}
+git push -u origin [nome_do_branch]
+```
+
+## Branches
+
+### Apontando branch local para branch remoto já existente
+
+- Criando branch local:
+```{r, engine='bash', eval = F}
+git checkout -b [nome_do_branch]
+```
+
+- Apontando branch local para branch remoto
 
 ## Referências e links úteis:
 
@@ -107,3 +141,5 @@ git config --global user.email user@exemplo.com
 >- [Git e github para usuários de R (livro)](http://happygitwithr.com/).
 
 >- [Configuração inicial do Git](https://git-scm.com/book/pt-br/v1/Primeiros-passos-Configura%C3%A7%C3%A3o-Inicial-do-Git).
+
+>- [Branches](https://stackoverflow.com/questions/520650/make-an-existing-git-branch-track-a-remote-branch)
