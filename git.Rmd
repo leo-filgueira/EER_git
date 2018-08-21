@@ -14,19 +14,19 @@ output:
 >- Permite criar e manter repositórios.
 >- Incentiva colaboração.
 
->- <img src="github.png"  height="480" width="1000">
+>- <img src="img/github.png"  height="480" width="1000">
 
 ## Uso do github
 
 ### Código
 
->- <img src="dplyr.png"  height="480" width="1080">
+>- <img src="img/dplyr.png"  height="480" width="1080">
 
 ## Uso do github
 
 ### Problemas 
 
->- <img src="issues.png"  height="480" width="1080">
+>- <img src="img/issues.png"  height="480" width="1080">
 
 
 ## O que é o GIT?  
@@ -38,7 +38,7 @@ output:
 
 ## [Download](https://git-scm.com/downloads)
 
-<img src="git_download.png"  height="480" width="1080">
+<img src="img/git_download.png"  height="480" width="1080">
 
 ## Configurando o GIT
 
@@ -63,7 +63,7 @@ git config --global user.email user@exemplo.com
 
 ### Obtendo url
 
-<img src="clone_git.png"  height="480" width="1080">
+<img src="img/clone_git.png"  height="480" width="1080">
 
 ## Clonando projeto
 
@@ -76,7 +76,7 @@ git config --global user.email user@exemplo.com
 
 ## Fazendo e obtendo modificações
 
-<img src="rstudio.png"  height="400" width="1080">
+<img src="img/rstudio.png"  height="400" width="1080">
 
 >- *Pull*
 >- *Commit*
@@ -91,14 +91,14 @@ git config --global user.email user@exemplo.com
 
 >- Mensagem de modificação dos arquivos.
 
->- <img src="commit.png"  height="400" width="720">
+>- <img src="img/commit.png"  height="400" width="720">
 
 ## Push
 
 >- Envia os commits ao repositório remoto (se for autorizado pelo mantenedor).
 >- Importante o repositório estar atualizado.
 
->- <img src="push.png"  height="400" width="720">
+>- <img src="img/push.png"  height="400" width="720">
 
 ## Observações
 
